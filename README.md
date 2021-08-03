@@ -9,4 +9,3 @@ git clone https://github.com/millerjohnp/dotfiles.git $HOME/code/dotfiles
 # Run setup
 sh $HOME/code/dotfiles/init.sh
 ```
-Inspired by `https://github.com/gibiansky/dotfiles`
