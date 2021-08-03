@@ -22,4 +22,4 @@ git clone https://github.com/sickill/vim-monokai.git $HOME/.vim/tmp/backup/vim-m
 mv $HOME/.vim/tmp/backup/vim-monokai/colors/monokai.vim ~/.vim/colors/
 
 # Get bash completion for git
-wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash $HOME/.git-completion.bash
+wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -O $HOME/.git-completion.bash

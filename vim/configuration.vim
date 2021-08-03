@@ -67,7 +67,7 @@ augroup END
 
 " launch config
 " install pathogen with mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-call pathogen#infect()                      " use pathogen
+" call pathogen#infect()                      " use pathogen
 
 
 " Syntax checking
@@ -85,10 +85,6 @@ call pathogen#infect()                      " use pathogen
 " Nerdtree
 " git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
-" Markdown preview 
-" git clone git@github.com:JamshedVesuna/vim-markdown-preview.git ~/.vim/bundle/vim-markdown-preview
-let vim_markdown_preview_github=1
-
 " Compile the tex file; '%:r' is the current file's root (base) name
 " autocmd FileType tex :nnoremap <leader>c :w<CR>:!latexmk -pdf %:r.tex <CR>
 autocmd FileType tex :nnoremap <leader>c :w<CR>:!latexmk -pdf main.tex <CR>
@@ -100,6 +96,3 @@ autocmd FileType tex :nnoremap <leader>v :!/Applications/Skim.app/Contents/MacOS
 " See /usr/share/vim/vim80/indent/tex.vim for details.
 let g:tex_noindent_env ='document\|verbatim\|lstlisting\|proof\|enumerate\|itemize\|exercise'
 let g:tex_indent_items = 0
-
-" Grammar checking
-:nmap <F5> (grammarous-move-to-next-error)
