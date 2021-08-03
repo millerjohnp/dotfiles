@@ -17,7 +17,8 @@ mkdir -p $HOME/.vim/tmp/backup
 # Set up the ~/.vimrc to point to my configuration
 echo 'source ~/.vimrc/configuration.vim' > ~/.vimrc
 
-git clone https://github.com/sickill/vim-monokai.git $HOME/.vim/tmp/backup
+mkdir -p $HOME/.vim/colors
+git clone https://github.com/sickill/vim-monokai.git $HOME/.vim/tmp/backup/vim-monokai
 mv $HOME/.vim/tmp/backup/vim-monokai/colors/monokai.vim ~/.vim/colors/
 
 # Get bash completion for git
