@@ -20,3 +20,7 @@ wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 
 # Set up bashrc
 source $HOME/.bashrc
+
+git config --global core.editor "vim"
+git config --global user.name "millerjohnp"
+git config --global user.email "johnpmiller16@gmail.com"
