@@ -8,7 +8,7 @@ FILES="bashrc vimrc"
 
 # Aliases for files
 for FILE in $FILES; do
-  ln -s $HOME/code/dotfiles/$FILE $HOME/.$FILE;
+  ln -sf $HOME/code/dotfiles/$FILE $HOME/.$FILE;
 done
 
 mkdir -p $HOME/.vim/colors
@@ -19,4 +19,4 @@ mv $HOME/.vim/tmp/backup/vim-monokai/colors/monokai.vim ~/.vim/colors/
 wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -O $HOME/.git-completion.bash
 
 # Set up bashrc
-source ~/.bashrc
+source $HOME/.bashrc
