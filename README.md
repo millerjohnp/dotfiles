@@ -12,11 +12,16 @@ sudo apt-get install -y git-core
 ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
 ```
+Then visit https://github.com/settings/keys
+
 3. Clone and run setup
 ```bash
 mkdir -p $HOME/code
-git clone https://github.com/millerjohnp/dotfiles.git $HOME/code/dotfiles
+git clone git@github.com:millerjohnp/dotfiles.git $HOME/code/dotfiles
 
 # Run setup
 $HOME/code/dotfiles/init.sh
+
+# Source the bashrc
+source ~/.bashrc
 ```
