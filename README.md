@@ -25,3 +25,9 @@ $HOME/code/dotfiles/init.sh
 # Source the bashrc
 source ~/.bashrc
 ```
+
+4. Install Anaconda (TODO: Move into `init.sh` next time I do this)
+```
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sh Miniconda3-latest-Linux-x86_64.sh
+```
