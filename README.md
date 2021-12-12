@@ -3,9 +3,9 @@ Installation
 To install this setup on any Linux or Mac machine, execute the following
 commands:
 
-1. Install git
+1. Install git and gcc/g++/make and node
 ```bash
-sudo apt-get install -y git-core
+sudo apt-get install -y git-core build-essential npm
 ```
 2. Create an SSH key and add it to Github (manually)
 ```bash
