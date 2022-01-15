@@ -24,3 +24,6 @@ source $HOME/.bashrc
 git config --global core.editor "vim"
 git config --global user.name "millerjohnp"
 git config --global user.email "johnpmiller16@gmail.com"
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sh Miniconda3-latest-Linux-x86_64.sh
