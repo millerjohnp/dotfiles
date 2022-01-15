@@ -5,6 +5,7 @@ commands:
 
 1. Install git and gcc/g++/make and node
 ```bash
+sudo apt update
 sudo apt-get install -y git-core build-essential npm
 ```
 2. Create an SSH key and add it to Github (manually)
